@@ -39,3 +39,7 @@ if (maxNumber % 3 === 0) {
 } else {
   console.log(maxNumber);
 }
+
+
+let message = "This is a pen";
+console.log(message.replaceAll(" ", "-"));
