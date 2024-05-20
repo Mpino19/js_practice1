@@ -29,3 +29,13 @@ class User {
 }
 const u1 = new User (1, "太郎", "鈴木", 25);
 u1.sayName();
+
+
+const numberList = [1, 2, 5, 7, 75];
+
+const maxNumber = Math.max(...numberList);
+if (maxNumber % 3 === 0) {
+  console.log(maxNumber / 3);
+} else {
+  console.log(maxNumber);
+}
