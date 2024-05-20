@@ -43,3 +43,13 @@ if (maxNumber % 3 === 0) {
 
 let message = "This is a pen";
 console.log(message.replaceAll(" ", "-"));
+
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const numbers2 = numbers.filter((number) => {
+  return number % 2 === 0;
+})
+const numbers5 = [...numbers2.map((number) => {
+  return number * 5;
+})]
+console.log(numbers5);
